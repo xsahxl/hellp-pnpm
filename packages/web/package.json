@@ -1,0 +1,20 @@
+{
+  "name": "@pn/web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf lib node_modules",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pn/components": "workspace:^1.0.0",
+    "@pn/models": "workspace:^1.0.0",
+    "@types/lodash": "^4.14.191",
+    "lodash": "^4.17.21"
+  }
+}

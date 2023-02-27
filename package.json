@@ -1,0 +1,22 @@
+{
+  "name": "hello-pnpm",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "install:all": "pnpm install",
+    "clean": "pnpm run -r clean && rimraf node_modules",
+    "build": "pnpm run -r build"
+  },
+  "engines": {
+    "node": ">=16",
+    "pnpm": ">=7"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rimraf": "^4.1.2"
+  }
+}
